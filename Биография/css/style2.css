@@ -1,0 +1,149 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 1.6;
+	color: #fff;
+	
+	
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: rgba(255, 255, 255, 0.0);
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
+
+.header{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	padding-top: 35px;
+}
+.header__logo{
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+}
+.nav{
+	font-size: 14px;
+	text-transform: uppercase; 
+
+}
+.nav__link{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
+	transition: color 0.7s linear;
+}
+.nav__link:hover{
+	color: #fce38a
+}
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	 background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  	-webkit-background-clip: text;
+}
+.section{
+	width: 100%;
+	max-width: 1220px;
+	height: 1050px;
+	margin: 0 auto;
+	padding: 20px;
+	
+}
+.section__text{
+	text-align: left;
+	display: flex;
+	top: 0;
+	padding: 60px;
+}
+.section__header{
+	
+}
+.leftmg{
+	float:left; /* Выравнивание по левому краю */
+    margin: 5px 5px 5px 0; /* Отступы вокруг картинки */
+}
+
+body {
+	background: linear-gradient(-45deg, #00FF0B, #492455, #333, #85FF00);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.section{
+	padding: 80px 0;
+}
+.section__header{
+	width: 100%;
+	max-width: 990px;
+	margin: 0 auto 0px;
+	text-align: center;
+}
+.section__suptitle{
+	font-family: "kaushan Script", cursive;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.section__title:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	margin: 20px auto;
+
+	background-color: #333;
+}
+.about{
+	display: flex;
+	color: #fff;
+	text-align: center;
+	justify-content: space-between;
+
+}
+.about__item{
+	width: 380px;
+}
+.about__img{
+	background-image: linear-gradient(to right, #000000, #390023, #600055, #6e009f, #000bff);
+}
+.about__item:hover .about__img img{
+	opacity: .7;
+}
+.about__img img{
+	display: block;
+	transition: opacity .2s linear;
+}
+.section__text1{
+	padding: 40px;
+}
